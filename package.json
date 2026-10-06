@@ -1,0 +1,23 @@
+{
+  "name": "bloomberry-pseo",
+  "version": "0.1.0",
+  "description": "Static programmatic SEO engine that turns page records into metadata, structured data, related links, and sitemap entries.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "example": "tsx examples/basic/run.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.2"
+  }
+}

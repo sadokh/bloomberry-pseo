@@ -1,0 +1,486 @@
+{
+  "routePrefix": "/compare",
+  "genericFaqSlugs": ["crm-implementation-guide"],
+  "policy": {
+    "noindexSlugs": [],
+    "redirects": {
+      "best-startup-crm": "/compare/best-crm-for-startups"
+    },
+    "noindexAllLocalePages": true
+  },
+  "linkRules": {
+    "max": 4,
+    "groups": {
+      "default": [
+        {
+          "label": "Best CRM for startups",
+          "href": "/compare/best-crm-for-startups",
+          "description": "Buying criteria for a team that is still closing its first ten customers"
+        },
+        {
+          "label": "CRM for agencies",
+          "href": "/compare/crm-for-agencies",
+          "description": "Retainers, guest seats, and which client can see which deal"
+        },
+        {
+          "label": "CRM vs spreadsheets",
+          "href": "/compare/crm-vs-spreadsheets",
+          "description": "The point where a shared sheet stops being the system of record"
+        },
+        {
+          "label": "Onboarding playbook",
+          "href": "/compare/crm-onboarding-playbook",
+          "description": "The first 30 days after a team leaves the spreadsheet"
+        }
+      ]
+    }
+  },
+  "clusters": {
+    "best-crm-for-startups": [
+      {
+        "label": "CRM for agencies",
+        "href": "/compare/crm-for-agencies",
+        "description": "A different buyer, with clients instead of a single pipeline"
+      },
+      {
+        "label": "CRM vs spreadsheets",
+        "href": "/compare/crm-vs-spreadsheets",
+        "description": "Stay on the sheet, or move, and what you lose either way"
+      },
+      {
+        "label": "Free CRM for freelancers",
+        "href": "/compare/free-crm-for-freelancers",
+        "description": "Solo operators who do not need seats or permissions"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "slug": "best-crm-for-startups",
+      "badge": "Startup CRM",
+      "title": "Best CRM for Startups — What to Adopt Before the Spreadsheet Breaks",
+      "metaDescription": "How a startup should pick a CRM: pipeline stages, price at 10 seats, and the week you outgrow a spreadsheet.",
+      "headline": "Best CRM for startups, judged by the first ten customers",
+      "subheadline": "A CRM is worth adopting when two people need the same deal history and a sheet can no longer tell them who replied.",
+      "composerPlaceholder": "We have 10 open deals and the notes live in three spreadsheets",
+      "keyword": "best crm for startups",
+      "platform": "crm"
+    },
+    {
+      "slug": "crm-for-agencies",
+      "badge": "Agency CRM",
+      "title": "CRM for Agencies — Clients, Retainers, and Shared Pipelines",
+      "metaDescription": "What an agency CRM has to track that a startup CRM does not: client seats, retainers, and who owns the relationship.",
+      "headline": "CRM for agencies that juggle clients, not just a sales pipeline",
+      "subheadline": "Agency work breaks a normal CRM when the client, the account manager, and the freelancer all need a different view of the same account.",
+      "composerPlaceholder": "We run 14 retainers and lose the thread when someone is on leave",
+      "keyword": "crm for agencies",
+      "platform": "crm"
+    },
+    {
+      "slug": "free-crm-for-freelancers",
+      "badge": "Free CRM",
+      "title": "Free CRM for Freelancers — When Free Is Enough",
+      "metaDescription": "A freelancer needs a contact list, a follow-up date, and a proposal status. Here is when a free CRM covers that, and when it does not.",
+      "headline": "Free CRM for freelancers who are still the whole sales team",
+      "subheadline": "If you are the only person writing proposals, you need a log of who you owe a reply, not a revenue forecast.",
+      "composerPlaceholder": "I forget to follow up two weeks after I send a proposal",
+      "keyword": "free crm for freelancers",
+      "platform": "crm"
+    },
+    {
+      "slug": "crm-vs-spreadsheets",
+      "badge": "Comparison",
+      "title": "CRM vs Spreadsheets — When to Leave the Sheet",
+      "metaDescription": "Stay in a spreadsheet while one person owns every deal. Move to a CRM when two people edit the same row and the notes disagree.",
+      "headline": "CRM vs spreadsheets",
+      "subheadline": "The sheet is a fine CRM until the second person needs to trust it.",
+      "composerPlaceholder": "Two founders keep overwriting the same deal notes",
+      "keyword": "crm vs spreadsheets",
+      "platform": "crm"
+    },
+    {
+      "slug": "startup-pipeline-examples",
+      "badge": "Examples",
+      "title": "Startup Pipeline Examples — Four Stages That Stay Honest",
+      "metaDescription": "Four startup pipeline examples with the exit rule for each stage, so a deal cannot sit in 'talking' for a quarter.",
+      "headline": "Startup pipeline examples with an exit rule on every stage",
+      "subheadline": "A stage name is decoration unless it says what has to be true before a deal moves.",
+      "composerPlaceholder": "Our stages are lead, talking, and closed, and talking means nothing",
+      "keyword": "startup pipeline examples",
+      "platform": "crm"
+    },
+    {
+      "slug": "crm-onboarding-playbook",
+      "badge": "Playbook",
+      "title": "CRM Onboarding Playbook — The First 30 Days",
+      "metaDescription": "A 30-day CRM onboarding playbook: import the live deals, agree the stages, and stop writing notes anywhere else.",
+      "headline": "CRM onboarding playbook for the first 30 days",
+      "subheadline": "Most CRM rollouts fail in week two, when people keep the real notes in the old sheet.",
+      "composerPlaceholder": "We bought a CRM and nobody opened it after the import",
+      "keyword": "crm onboarding playbook",
+      "platform": "crm"
+    },
+    {
+      "slug": "crm-implementation-guide",
+      "badge": "Guide",
+      "title": "CRM Implementation Guide",
+      "metaDescription": "A placeholder page. It claims to be a guide and has no authored steps, so it must not be indexed.",
+      "headline": "CRM implementation guide",
+      "subheadline": "This record exists to show the thin-page check. Do not publish it.",
+      "composerPlaceholder": "How do we implement a CRM",
+      "keyword": "crm implementation guide",
+      "platform": "crm"
+    },
+    {
+      "slug": "best-startup-crm",
+      "badge": "Duplicate intent",
+      "title": "Best Startup CRM",
+      "metaDescription": "Same query as the startup CRM page. This slug redirects there instead of competing with it.",
+      "headline": "Best startup CRM",
+      "subheadline": "Near-duplicate of best CRM for startups.",
+      "composerPlaceholder": "Best startup CRM",
+      "keyword": "best startup crm",
+      "platform": "crm"
+    },
+    {
+      "slug": "simple-crm",
+      "badge": "Alias",
+      "title": "Simple CRM",
+      "metaDescription": "Alias of the startup CRM page. Canonical points at the stronger URL, so this one stays out of the sitemap.",
+      "headline": "Simple CRM",
+      "subheadline": "Readers looking for a simple CRM should land on the startup criteria page.",
+      "composerPlaceholder": "Simple CRM for a small team",
+      "keyword": "simple crm",
+      "platform": "crm",
+      "canonicalOverride": "https://northwind.example/compare/best-crm-for-startups"
+    },
+    {
+      "slug": "best-crm-for-startups",
+      "badge": "Duplicate row",
+      "title": "This second row must be discarded",
+      "metaDescription": "Duplicate slug. The registry keeps the first best-crm-for-startups record.",
+      "headline": "Discarded duplicate",
+      "subheadline": "If this headline is the one that resolves, dedupe failed.",
+      "composerPlaceholder": "duplicate",
+      "keyword": "best crm for startups duplicate",
+      "platform": "crm"
+    }
+  ],
+  "content": {
+    "best-crm-for-startups": {
+      "examples": [
+        {
+          "label": "Ten-person team",
+          "input": "We have 10 open deals and the notes live in three spreadsheets",
+          "output": "Keep a CRM when two people touch the same deal. Until then, one sheet with a follow-up date is enough. The trigger to move is a disagreement about what the customer last said.",
+          "platform": "crm"
+        },
+        {
+          "label": "First sales hire",
+          "input": "We are hiring someone who did not sit in the original conversations",
+          "output": "A new hire cannot reconstruct the pipeline from chat logs. Import the live deals, write the stage exit rules, and stop adding notes anywhere else for 30 days.",
+          "platform": "crm"
+        }
+      ],
+      "howItWorks": [
+        { "step": "1", "description": "List the deals that are actually open, not every contact you have ever emailed." },
+        { "step": "2", "description": "Give each stage an exit rule: what must be true before a deal leaves it." },
+        { "step": "3", "description": "Pick a CRM that a second person can trust without asking the founder what the cell means." }
+      ],
+      "faqs": [
+        {
+          "question": "What is the best CRM for startups?",
+          "answer": "The best CRM for a startup is the one two people will update after the kickoff. Stage exit rules matter more than the brand. If the notes stay in a side sheet, the tool you picked is not the system."
+        },
+        {
+          "question": "When should a startup leave spreadsheets?",
+          "answer": "Leave the sheet when a second person edits deal notes, or when a new hire has to take over conversations they were not in. One founder tracking ten deals does not need a CRM yet."
+        },
+        {
+          "question": "How is this different from a CRM for agencies?",
+          "answer": "A startup CRM tracks one company selling its own product. An agency CRM also has to show which client can see which deal, and who owns the relationship when the account manager is out."
+        },
+        {
+          "question": "What should the first pipeline look like?",
+          "answer": "Four stages are enough: replied, meeting booked, proposal sent, won or lost. Each stage needs a date and a reason. 'Talking' is not a stage."
+        }
+      ],
+      "relatedPages": [
+        {
+          "label": "CRM vs spreadsheets",
+          "href": "/compare/crm-vs-spreadsheets",
+          "description": "The decision this page assumes you are in the middle of"
+        },
+        {
+          "label": "CRM for agencies",
+          "href": "/compare/crm-for-agencies",
+          "description": "Read this instead if you sell client work rather than your own product"
+        },
+        {
+          "label": "Onboarding playbook",
+          "href": "/compare/crm-onboarding-playbook",
+          "description": "What to do in the 30 days after you pick one"
+        }
+      ],
+      "primaryKeyword": "Best CRM for startups",
+      "definition": "is a pipeline a second person can trust without asking the founder what a cell means",
+      "definitionOutcome": "choose a CRM when the spreadsheet stops being the record, and not before",
+      "capabilities": [
+        "Shows the trigger for leaving a spreadsheet",
+        "Separates a startup pipeline from an agency pipeline",
+        "Gives stage exit rules instead of a vendor list"
+      ]
+    },
+    "crm-for-agencies": {
+      "examples": [
+        {
+          "label": "Retainer handoff",
+          "input": "The account manager is on leave and nobody knows the renewal date",
+          "output": "An agency CRM has to store the retainer end date on the account, not in the manager's inbox. The backup person should see the last client email without forwarding a thread.",
+          "platform": "crm"
+        }
+      ],
+      "howItWorks": [
+        { "step": "1", "description": "Separate your own sales pipeline from the work you do inside a client account." },
+        { "step": "2", "description": "Decide which seats the client gets, and which notes stay internal." },
+        { "step": "3", "description": "Put the renewal date on the account record so it survives a vacation." }
+      ],
+      "faqs": [
+        {
+          "question": "How is an agency CRM different from a startup CRM?",
+          "answer": "Agencies need client-visible and internal notes on the same account, plus a retainer date. A startup CRM only has to track the company's own deals."
+        },
+        {
+          "question": "Can freelancers use the same setup?",
+          "answer": "A freelancer with no shared seats should use the free CRM page. Agency requirements start when a second person covers the account."
+        },
+        {
+          "question": "What breaks first?",
+          "answer": "Renewal dates stored in personal inboxes. If the owner of the relationship is out, the CRM did not have the date."
+        },
+        {
+          "question": "Where should new business live?",
+          "answer": "In a separate pipeline from delivery. Mixing a pitch and a retainer on one board hides both."
+        }
+      ],
+      "relatedPages": [
+        {
+          "label": "Best CRM for startups",
+          "href": "/compare/best-crm-for-startups",
+          "description": "The single-pipeline version of this decision"
+        },
+        {
+          "label": "Free CRM for freelancers",
+          "href": "/compare/free-crm-for-freelancers",
+          "description": "For people who do not share seats"
+        }
+      ]
+    },
+    "free-crm-for-freelancers": {
+      "examples": [
+        {
+          "label": "Proposal follow-up",
+          "input": "I forget to follow up two weeks after I send a proposal",
+          "output": "A free CRM is enough when the only job is a follow-up date on each proposal. You do not need forecasting, seats, or lead scoring.",
+          "platform": "crm"
+        }
+      ],
+      "howItWorks": [
+        { "step": "1", "description": "Track proposals, not every person you have met." },
+        { "step": "2", "description": "Put a follow-up date on each one." },
+        { "step": "3", "description": "Move to a paid CRM only when someone else has to update the same records." }
+      ],
+      "faqs": [
+        {
+          "question": "When is a free CRM enough?",
+          "answer": "When one person owns every proposal and the job is remembering who to nudge. Shared editing is the point where free tools usually fall over."
+        },
+        {
+          "question": "What should it store?",
+          "answer": "Contact, proposal date, amount, and the next follow-up. Notes that live only in email will not be there next month."
+        },
+        {
+          "question": "Is this the same as the best CRM for startups?",
+          "answer": "No. That page is about a team sharing one pipeline. This page is about a single operator."
+        },
+        {
+          "question": "What is a reason to pay?",
+          "answer": "A second person needs access, or a client needs a seat. Those are agency problems, not freelancer problems."
+        }
+      ],
+      "relatedPages": [
+        {
+          "label": "Best CRM for startups",
+          "href": "/compare/best-crm-for-startups",
+          "description": "When the team grows past one person"
+        },
+        {
+          "label": "CRM for agencies",
+          "href": "/compare/crm-for-agencies",
+          "description": "When clients need their own view"
+        }
+      ]
+    },
+    "crm-vs-spreadsheets": {
+      "examples": [
+        {
+          "label": "Conflicting notes",
+          "input": "Two founders keep overwriting the same deal notes",
+          "output": "If two people can change the same cell and neither can see who wrote the last sentence, the sheet is no longer a record. That is the CRM moment.",
+          "platform": "crm"
+        }
+      ],
+      "howItWorks": [
+        { "step": "1", "description": "Stay on the sheet while one person owns every row." },
+        { "step": "2", "description": "Move when a second editor can overwrite the note that explained the deal." },
+        { "step": "3", "description": "Do not migrate dead leads. Migrate the open ones and the stage rules." }
+      ],
+      "faqs": [
+        {
+          "question": "When should we stop using a spreadsheet as a CRM?",
+          "answer": "When two people edit the same deal and the notes disagree. A single owner can stay on the sheet."
+        },
+        {
+          "question": "What should we migrate?",
+          "answer": "Open deals, the last real note, and the next date. Closed-lost history can wait."
+        },
+        {
+          "question": "Does a CRM fix a messy pipeline?",
+          "answer": "No. If the stages have no exit rules, the CRM reproduces the sheet with more clicks. Write the rules first."
+        },
+        {
+          "question": "Which page covers the buying decision?",
+          "answer": "Best CRM for startups covers what to adopt. This page only covers when to leave the sheet."
+        }
+      ],
+      "relatedPages": [
+        {
+          "label": "Best CRM for startups",
+          "href": "/compare/best-crm-for-startups",
+          "description": "What to adopt after you decide to leave the sheet"
+        },
+        {
+          "label": "Onboarding playbook",
+          "href": "/compare/crm-onboarding-playbook",
+          "description": "The 30 days after the move"
+        }
+      ],
+      "comparison": {
+        "competitorName": "Spreadsheet",
+        "rows": [
+          { "feature": "One owner", "ours": "More process than you need", "competitor": "Enough" },
+          { "feature": "Two people editing notes", "ours": "History of who wrote what", "competitor": "Last write wins" },
+          { "feature": "Follow-up date", "ours": "On the deal", "competitor": "A column, if someone remembers it" },
+          { "feature": "New hire handoff", "ours": "The record is the conversation", "competitor": "A tour of old tabs" }
+        ]
+      }
+    },
+    "startup-pipeline-examples": {
+      "examples": [
+        {
+          "label": "Four stages",
+          "input": "Our stages are lead, talking, and closed, and talking means nothing",
+          "output": "Replied: they answered. Meeting booked: a time is on the calendar. Proposal sent: a number and a date went out. Won or lost: they said yes or you closed it. Anything else is a note, not a stage.",
+          "platform": "crm"
+        },
+        {
+          "label": "A stage that expired",
+          "input": "Deals sit in talking for a quarter",
+          "output": "Add an exit rule: a deal leaves 'meeting booked' after 14 days with no meeting, and moves to lost with a reason. A stage without a clock becomes a junk drawer.",
+          "platform": "crm"
+        }
+      ],
+      "howItWorks": [
+        { "step": "1", "description": "Name at most four stages." },
+        { "step": "2", "description": "Write the fact that must be true to enter each one." },
+        { "step": "3", "description": "Add a clock. A stage with no expiry collects deals nobody is working." }
+      ],
+      "faqs": [
+        {
+          "question": "What does a startup pipeline example look like?",
+          "answer": "Replied, meeting booked, proposal sent, won or lost. Each one has an observable fact, not a feeling about the relationship."
+        },
+        {
+          "question": "Why not more stages?",
+          "answer": "Extra stages are where deals hide. If you cannot say what changed when a deal moved, the stage should be a note."
+        },
+        {
+          "question": "How is this different from the onboarding playbook?",
+          "answer": "This page is the shape of the pipeline. The playbook is the 30 days of getting a team to use it."
+        },
+        {
+          "question": "Where do lost deals go?",
+          "answer": "Out of the open board, with a reason. Leaving them in 'talking' makes the pipeline look healthier than it is."
+        }
+      ],
+      "relatedPages": [
+        {
+          "label": "Best CRM for startups",
+          "href": "/compare/best-crm-for-startups",
+          "description": "The buying page these stages belong to"
+        },
+        {
+          "label": "Onboarding playbook",
+          "href": "/compare/crm-onboarding-playbook",
+          "description": "How to get the team onto these stages"
+        }
+      ]
+    },
+    "crm-onboarding-playbook": {
+      "examples": [
+        {
+          "label": "Week two relapse",
+          "input": "We bought a CRM and nobody opened it after the import",
+          "output": "For 30 days, notes that are not in the CRM do not count. Import only open deals. In week two, delete edit access on the old sheet so the relapse is obvious.",
+          "platform": "crm"
+        }
+      ],
+      "howItWorks": [
+        { "step": "1", "description": "Import open deals only, with the last note and the next date." },
+        { "step": "2", "description": "Agree the stage exit rules in writing before anyone is trained." },
+        { "step": "3", "description": "Remove the old sheet as an editing surface for 30 days." }
+      ],
+      "faqs": [
+        {
+          "question": "What happens in the first 30 days of a CRM rollout?",
+          "answer": "Import live deals, freeze the stage rules, and stop writing the real notes in the old sheet. Training sessions do not matter if the sheet is still editable."
+        },
+        {
+          "question": "Why do rollouts fail in week two?",
+          "answer": "People hit a field they do not understand and go back to the sheet. The fix is fewer fields, not another workshop."
+        },
+        {
+          "question": "Which deals should we import?",
+          "answer": "Open ones. Historical lost deals can be archived later. Importing everything makes the new tool look like the mess you left."
+        },
+        {
+          "question": "How does this relate to pipeline examples?",
+          "answer": "Set the stages from the pipeline examples page first. This playbook is only the rollout."
+        }
+      ],
+      "relatedPages": [
+        {
+          "label": "Startup pipeline examples",
+          "href": "/compare/startup-pipeline-examples",
+          "description": "The stages to agree before training"
+        },
+        {
+          "label": "CRM vs spreadsheets",
+          "href": "/compare/crm-vs-spreadsheets",
+          "description": "Why the old sheet has to become read-only"
+        },
+        {
+          "label": "Best CRM for startups",
+          "href": "/compare/best-crm-for-startups",
+          "description": "The page that should have been chosen before this rollout"
+        }
+      ],
+      "capabilities": [
+        "Imports open deals only",
+        "Freezes stage rules before training",
+        "Makes the old spreadsheet read-only for 30 days"
+      ]
+    }
+  }
+}
